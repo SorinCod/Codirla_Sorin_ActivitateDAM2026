@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ActivitateDAM2026</string>
+    <string name="meniu_titlu">Laboratoare DAM 2026</string>
+    <string name="meniu_autor">Codirla Sorin</string>
+    <string name="btn_lab02">Laborator 02 – Ciclul de viață</string>
+    <string name="btn_lab03">Laborator 03 – Views</string>
+    <string name="btn_lab04">Laborator 04 – Obiecte</string>
+
+    <string name="lab02_titlu">Laborator 02 – Ciclul de viață</string>
+    <string name="lab02_instructiuni">Deschide Logcat și filtrează după tag-ul CicluViata</string>
+    <string name="lab02_btn_activitatea2">Deschide activitatea 2</string>
+    <string name="lab02_mesaj_trimis">Salut din Laboratorul 02!</string>
+    <string name="lab02_activitatea2_titlu">Activitatea 2 – mesaj primit:</string>
+    <string name="lab02_btn_activitatea3">Deschide activitatea 3</string>
+    <string name="lab02_activitatea3_titlu">Activitatea 3</string>
+    <string name="lab02_hint_mesaj">Scrie un mesaj</string>
+    <string name="lab02_btn_trimite">Trimite și închide</string>
+    <string name="lab02_toast_raspuns">Mesaj primit din activitatea 3: %1$s</string>
+    <string name="lab02_eroare_gol">Scrie un mesaj înainte</string>
+</resources>
