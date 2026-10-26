@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lab04.Lab04Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:text="Laborator 04 – Obiecte"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnAdauga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adaugă obiect" />
+
+        <TextView
+            android:id="@+id/tvInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp"
+            android:text="Niciun aparat foto adăugat încă"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvMarca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvModel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvRezolutie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvStabilizare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvTip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvSenzor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvWifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</ScrollView>

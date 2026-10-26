@@ -11,6 +11,8 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import ro.ase.dam.lab02.Lab02Activity;
+import ro.ase.dam.lab03.ViewsActivity;
+import ro.ase.dam.lab04.Lab04Activity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,5 +30,13 @@ public class MainActivity extends AppCompatActivity {
         Button btnLab02 = findViewById(R.id.btnLab02);
         btnLab02.setOnClickListener(view ->
                 startActivity(new Intent(this, Lab02Activity.class)));
+
+        Button btnLab03 = findViewById(R.id.btnLab03);
+        btnLab03.setOnClickListener(view ->
+                startActivity(new Intent(this, ViewsActivity.class)));
+
+        Button btnLab04 = findViewById(R.id.btnLab04);
+        btnLab04.setOnClickListener(view ->
+                startActivity(new Intent(this, Lab04Activity.class)));
     }
 }

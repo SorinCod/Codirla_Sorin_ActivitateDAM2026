@@ -17,4 +17,13 @@
     <string name="lab02_btn_trimite">Trimite și închide</string>
     <string name="lab02_toast_raspuns">Mesaj primit din activitatea 3: %1$s</string>
     <string name="lab02_eroare_gol">Scrie un mesaj înainte</string>
+    <string name="lab03_titlu">Laborator 03 – Views</string>
+    <string name="lab03_coloana_stanga">Date</string>
+    <string name="lab03_coloana_dreapta">Rezultat</string>
+    <string name="lab03_hint_text">Scrie un text</string>
+    <string name="lab03_switch_confirmare">Confirm</string>
+    <string name="lab03_btn_aplica">Aplică</string>
+    <string name="lab03_rezultat_initial">Aici apare textul tău</string>
+    <string name="lab03_toast_succes">Text actualizat!</string>
+    <string name="lab03_eroare_gol">Câmpul nu poate fi gol</string>
 </resources>

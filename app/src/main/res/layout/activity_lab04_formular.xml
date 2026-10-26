@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lab04.FormularActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:text="Adaugă aparat foto"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etMarca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:importantForAutofill="no"
+            android:hint="Marcă (ex: Canon)"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/etModel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:importantForAutofill="no"
+            android:hint="Model (ex: EOS R6)"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/etRezolutie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:importantForAutofill="no"
+            android:hint="Rezoluție (MP)"
+            android:inputType="number" />
+
+        <CheckBox
+            android:id="@+id/cbStabilizare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Stabilizare de imagine" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Tip aparat"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/rgTip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checkedButton="@id/rbDslr"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbDslr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DSLR" />
+
+            <RadioButton
+                android:id="@+id/rbMirrorless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mirrorless" />
+
+            <RadioButton
+                android:id="@+id/rbCompact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Compact" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Senzor"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spSenzor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Rating"
+            android:textStyle="bold" />
+
+        <RatingBar
+            android:id="@+id/rbRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="0.5" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/swWifi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:minHeight="48dp"
+            android:text="Wi-Fi" />
+
+        <Button
+            android:id="@+id/btnSalveaza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Salvează" />
+
+    </LinearLayout>
+</ScrollView>
